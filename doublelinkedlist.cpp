@@ -213,11 +213,9 @@ public:
     }
 };
 
-  } while (choice != '6');
-}
-  int main()
+int main()
 {
- DoubleLinkedList list;
+    DoubleLinkedList list;
     char choice;
 
     do
@@ -259,7 +257,9 @@ public:
         cin.ignore();
         cin.get();
         cout << endl;
-        system("clear");   
+        system("clear");
+    } while (choice != '6');
+} 
         
 
    
