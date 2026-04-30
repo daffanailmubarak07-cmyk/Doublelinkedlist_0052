@@ -21,4 +21,6 @@ public:
         START = NULL;
     }
 
-    
+void addNode()
+    {
+            
